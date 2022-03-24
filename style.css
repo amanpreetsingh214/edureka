@@ -1,0 +1,245 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fbfbfb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* .logo-text{
+    padding: 45px;
+    margin: 5px;
+} */
+.nav{
+    /* background-color: #f8922bfe; */
+    background-color: snow;
+    width: 100%;
+    height: 70px;
+}
+li,a{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin: 10px 10px 0px 10px;
+    font-size: 1.1em;
+    color: rgb(88, 87, 87);
+    bottom: 0px;
+    
+}
+.ul{
+    float: right;
+    display: flex;
+    align-items: flex-end;
+}
+.img,h2 {
+    float: left;
+}
+h2{
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+/* h1 */
+.h1>h1{
+    height: fit-content;
+    margin: 0px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+    background-color: rgb(243, 241, 241);
+    box-shadow: 1px 1px 1px lightgray;
+    /* margin: auto; */
+    padding: 15px;
+    color: rgb(88, 87, 87);
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* .h1>h1{
+    padding: 10px;
+} */
+
+/* filter container */
+.filter-container{
+    min-height: 600px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(240, 239, 239);
+    margin-top: 0vh;
+    float: left;
+    position: absolute;
+    text-align: center;
+
+}
+.text-filter{
+    font-size: 25px;
+    padding: 0px;
+    font-weight: 100;
+    margin: auto;
+    text-align: center;
+    color: rgb(88, 87, 87);
+}
+.location{
+    margin-top: 3vh;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    opacity: 0.4;
+}
+.location:hover{
+    background-color: lightgray;
+}
+.text-filter2,.text-filter3,.text-filter4{
+    opacity: 0.8;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2vh;
+    color: rgb(88, 87, 87);
+    text-align: left;
+    font-size: 20px;
+}
+
+/* checkbox-container */
+.checkbox-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 228, 228);
+    background-color: snow;
+    min-height: 100px;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(88, 87, 87);
+    text-align: left;
+}
+.checkbox,.radio{
+    margin: 10px;
+    text-align: left;
+}
+/* Radio-btn */
+.text-filter3,.text-filter4{
+    margin-top: 2vh;
+}
+.filter-btn{
+    margin: auto;
+    margin-top: 2vh;
+    width: fit-content;
+    height: fit-content;
+}
+.filter-btn>button{
+    height: 30px;
+    width: 150px;
+    /* border-radius: 0%; */
+    border-color: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.8;
+}
+/* results container */
+.results-container,.results{
+    min-height: 700px;
+    background-color: snow;
+    /* display: flex; */
+    /* width: 100%; */
+    margin: auto;
+    margin-left: 200px;
+
+}
+
+.first-result,.second-result{
+    /* height: 250px; */
+    min-height: 250px;
+    background-color: rgb(245, 242, 242);
+    box-shadow: 3px 3px 3px lightgray;
+    min-width: 50%;
+    transition: all 0.5s;
+    /* margin: auto; */
+    /* margin-top: 5vh; */
+}
+.second-result:hover{
+    transform: scale(1.03);
+    transition: all 0.5s;
+}
+.first-result:hover{
+    transform: scale(1.03);
+    transition: all 0.5s;
+}
+
+.food-img1>img{
+    width: 100%;
+    height: 100%;
+}
+.food-img1{
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+.food-text1{
+    margin-left: 20vw;
+    padding-top: 30px;
+}
+
+.p1{
+    font-size: 30px;
+    color: grey;
+}
+.p2{
+    font-size: 20px;
+    color: rgb(160, 159, 159);
+}
+.p3{
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+}
+.hr{
+    width: 100%;
+    height: 0.1px;
+    text-decoration: none;
+}
+.below-text{
+    margin: auto;
+    /* width: 200px; */
+    background-color: snow;
+    text-align: left;
+    background-color: rgb(247, 244, 244);
+}
+.p4,.p5{
+    text-align: left;
+    padding-left: 100px;
+    color: rgb(114, 113, 113);
+    /* background-color: rgb(247, 241, 241); */
+    
+}
+.p4-span,.p5-span{
+    color: rgb(160, 159, 159);
+}
+.p4-span{
+    margin-left: 70px ;
+}
+.p5-span{
+    margin-left: 30px;
+}
+
+.master-div{
+    display: flex;
+}
+
+
+
+
+
+/* pagebtns */
+.page-buttons{
+    height: fit-content;
+    width: fit-content;
+    background-color: #FDDA0D;
+    background-color: snow;
+    margin: auto;
+    margin-top: 1vh;
+}
+.page-buttons>button{
+    border: 50%;
+    color: rgb(88, 87, 87);
+    width: 40px;
+
+}
+.page-buttons>button:hover{
+    cursor: pointer;
+
+}

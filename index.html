@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="./index.html" class="img"><img src="./img/logo1.png" alt="" width="80px" height="60px"></a>
+        <!-- <h3 class="logo-text">Foodie Moodie</h3> -->
+       <ul class="ul">
+           <li><a href="./index.html">Login</a></li>
+           <li><a href="./index.html" class="span">Create an account</a></li>
+       </ul>
+    </div>
+    <div class="h1">
+        <h1>Dinner Places in Delhi</h1>
+    </div>
+    <!-- <h1>Dinner Places in Delhi</h1> -->
+ <!-- Filter--content -->
+   <div class="master-div">
+    <div class="filter-container">
+   
+        <p class="text-filter">Filters</p>
+        <select name="location" class="location">Location
+            <option value="Location">Select Location</option>
+            <option value="Location">Delhi</option>
+            <option value="Location">Mumbai</option>
+            <option value="Location">Sriganganagar</option>
+            <option value="Location">Bangalore</option>
+            <option value="Location">Hyderabad</option>
+            <option value="Location">Pune</option>
+        </select>
+        
+        <div class="checkbox-container">
+                <p class="text-filter2">Cuisine</p>
+                <label for=""><input type="checkbox" value="North Indian" class="checkbox">North Indian</label>
+                <label for=""><input type="checkbox" class="checkbox">South Indian <br></label>
+                <label for=""><input type="checkbox" class="checkbox">Chinese <br></label>
+                <label for=""><input type="checkbox" class="checkbox" checked>Punjabi</label> 
+                <label for=""><input type="checkbox" class="checkbox">Fast Food <br></label>   
+                <p class="text-filter3">Cost for two</p>
+                <label for=""><input type="radio" name="cost" id="" value="Less" class="radio">Less Than 500</label>
+                <label for=""><input type="radio" name="cost" id="" value="Less" class="radio">500-1000</label>
+                <label for=""><input type="radio" name="cost" id="" value="Less" class="radio">1000-1500</label>
+                <label for=""><input type="radio" name="cost" id="" value="Less" class="radio">1500-2000</label>
+                <label for=""><input type="radio" name="cost" id="" value="Less" class="radio">More than 2000</label>
+                <p class="text-filter4">Sort</p>
+                <label for=""><input type="radio" name="sort" id="low2high" value="on" class="radio" onclick="">Low to High</label>
+                <label for=""><input type="radio" name="sort" id="high2low" value="Less" class="radio">High to Low</label>
+
+                <div class="filter-btn">
+                    <button><a href="./index.html" id="apply">Apply Filters</a> </button>
+                </div>
+        </div>
+        
+
+    </div>
+
+    <div class="results-container">
+        <div class="results">
+
+            <div class="first-result">
+                <div class="food-img1">
+                    <img src="./img/photo1.jpg" alt="">
+                </div>
+                
+                <div class="food-text1">
+                    <p class="p1">Butter Chicken</p>
+                    <p class="p2">Punjabi Dhaba</p>
+                    <p class="p3">16-A Block,CP,Delhi</p>
+    
+                </div>
+                <hr class="hr">
+                <div class="below-text">
+                    <p class="p4">
+                        Cuisine  : <span class="p4-span">Spicy Indian Food</span>
+                    </p>
+                    <p class="p5">
+                        Cost For Two  : <span class="p5-span">₹650</span>
+                    </p>
+    
+                </div>
+                
+                
+            </div>
+    
+            <div class="second-result">
+                <div class="food-img1">
+                    <img src="./img/photo2.jpg" alt="">
+                </div>
+                <div class="food-text1">
+                    <p class="p1">Italian Pizza</p>
+                    <p class="p2">Dominos</p>
+                    <p class="p3">60-Malviya Nagar,Delhi</p>
+    
+                </div>
+                <hr class="hr">
+                <div class="below-text">
+                    <p class="p4">
+                        Cuisine  : <span class="p4-span">Italian Pizaa</span>
+                    </p>
+                    <p class="p5">
+                        Cost For Two  : <span class="p5-span">₹500</span>
+                    </p>
+    
+                </div>
+    
+            </div>
+    
+            <div class="page-buttons">
+                <button>←</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>→</button>
+    
+            </div>
+        </div>
+        
+    </div>
+
+
+   </div>
+    
+<script src="./main.js"></script>    
+</body>
+</html>
+
+
+
+<!-- <div class="first-result">
+            <div class="food-img1">
+                <img src="./img/photo1.jpg" alt="">
+            </div>
+            <div class="food-text1">
+                <p class="p1">Butter Chicken</p>
+                <p class="p2">Punjabi Dhaba</p>
+                <p class="p3">16-A Block,CP,Delhi</p>
+
+            </div>
+            <hr class="hr">
+            <div class="below-text">
+                <p class="p4">
+                    Cuisine  : <span class="p4-span">Spicy Indian Food</span>
+                </p>
+                <p class="p5">
+                    Cost For Two  : <span class="p5-span">₹650</span>
+                </p>
+
+            </div>
+            
+        </div>
+
+        <div class="second-result">
+            <div class="food-img1">
+                <img src="./img/photo2.jpg" alt="">
+            </div>
+            <div class="food-text1">
+                <p class="p1">Italian Pizza</p>
+                <p class="p2">Dominos</p>
+                <p class="p3">60-Malviya Nagar,Delhi</p>
+
+            </div>
+            <hr class="hr">
+            <div class="below-text">
+                <p class="p4">
+                    Cuisine  : <span class="p4-span">Italian Pizaa</span>
+                </p>
+                <p class="p5">
+                    Cost For Two  : <span class="p5-span">₹500</span>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="page-buttons">
+            <button>←</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>→</button>
+
+        </div>
+         -->
